@@ -21,3 +21,18 @@ let someNumber = 33
 let stringNumber = String(someNumber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+
+
+// ****************************************** Operations ***************************************
+
+
+let str1 = "2"
+let str2 = "7"
+
+// console.log(str1 + str2);
+// console.log(1 + 3);
+// console.log("1" + 3);
+// console.log(1 + "3");
+// console.log("1" + 3 + 5);
+// console.log(1 + 3 + "5");
