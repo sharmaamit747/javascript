@@ -16,7 +16,28 @@
   
  // object
 
-console.log(typeof "Amit");
-console.log(typeof age);
-console.log(typeof null);
-console.log(typeof undefined);
+// console.log(typeof "Amit");
+// console.log(typeof age);
+// console.log(typeof null);
+// console.log(typeof undefined);
+
+//Primitive Datatypes (call by value 7 Types: String, Number, BigInt, Boolean, Undefined, Null, Symbol)
+let score = 33
+let scoreDecimal = 33.5
+let bigScore = 156464566666666664554544444n
+
+// console.log(typeof bigScore)
+
+//Non-Primitive Datatypes (call by reference Types: Array, Object, Function)
+let heros = ['Shaktiman', 'Aryaman', 'Nagraj']
+let details = {
+    name : 'Amit Kumar',
+    age : 35,
+    city : 'New Delhi'
+}
+
+let myFunction = function(){
+    console.log("Hello World!")
+}
+
+console.log(typeof myFunction)
