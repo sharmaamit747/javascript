@@ -41,3 +41,26 @@ let myFunction = function(){
 }
 
 console.log(typeof myFunction)
+
+//+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+//Stack Memory(Premitive Datattypes)  and Heap Memory(Non-Premitive Datattypes)
+
+let myYoutubeName = 'ramkrishna'
+let newYoutubeName = myYoutubeName
+newYoutubeName = 'Jaishrikrishna'
+
+// console.log(newYoutubeName)
+// console.log(myYoutubeName)
+
+let userOne = {
+    name : 'Amit Kumar',
+    email : 'sharma@gmail.com'
+}
+
+let userTwo = userOne
+
+userTwo.email = 'amit@gmail.com'
+
+console.log(userOne.email)
+console.log(userTwo.email)
