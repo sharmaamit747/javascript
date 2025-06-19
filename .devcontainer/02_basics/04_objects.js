@@ -29,10 +29,20 @@ user1.id = 1
 user1.name = 'amit'
 user1.email = 'amit@gmail.com'
 
-console.log(user1)
+// console.log(user1)
 
-console.log(Object.keys(user1))
-console.log(Object.values(user1))
-console.log(Object.entries(user1))
+// console.log(Object.keys(user1))
+// console.log(Object.values(user1))
+// console.log(Object.entries(user1))
 
-console.log(user1.hasOwnProperty('email'))
+// console.log(user1.hasOwnProperty('email'))
+
+const course = {
+    course: "html",
+    courseId: 3021,
+    courseInstructor: "Amit"
+}
+
+const {courseInstructor: inst} = course //object destructure
+
+console.log(inst)
